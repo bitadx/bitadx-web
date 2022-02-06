@@ -1,0 +1,189 @@
+* {
+    font-family: 'Montserrat', sans-serif;
+}
+
+h1 {
+    text-align: center;
+    font-weight: 600;
+    font-size: 32px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+section {
+    display: flex;
+    /* display: inline-block; */
+    box-sizing: border-box;
+}
+
+/* login-page css */
+
+/* header section */
+.login-toplink {
+    padding: 20px;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.back-btn {
+    float: left;
+    color: #2A2C32;
+}
+
+.signup-btn { 
+    float: right;
+    color: #2A2C32;
+}
+
+.log-in-btn { 
+    float: right;
+    color: #2A2C32;
+}
+
+.fas {
+    float: left;
+    padding-right: 10px;
+    padding-top: 5px;
+}
+
+/* left menu section css */
+
+.left-menu {
+    box-sizing: border-box;
+    display: inline-block;
+    width: 100%;
+    max-width: 384px;
+    margin-top: 35px;
+}
+
+.input-box {
+    max-width: 384px;
+    height: 52px;
+    
+}
+
+.gap {
+    margin-top: -8px;
+}
+
+.btn-box {
+    width: 100%;
+    max-width: 384px;
+    background-color: #2A2C32;
+    border: 1px solid #ccc;
+    color: white;
+    padding: 12px 20px;
+    text-align: center;
+    font-size: 18px;
+    margin: 25px 0px;
+    opacity: 1;
+    transition: 0.3s;
+    border-radius: 4px;
+}
+
+.btn-box:hover {
+    background-color: #FF196E;
+    border-color: #FF196E;
+        
+}
+
+/* right menu section css */
+.right-menu {
+    width: 384px;
+    height: 52px;
+    display: inline-block;
+    box-sizing: border-box;
+    float:right;     
+    
+}
+
+.right-btn-box {
+    width: 100%;
+    max-width: 384px;
+    background-color: white;
+    border: 1px solid #ccc;
+    padding: 12px 20px;
+    text-align: center;
+    font-size: 18px;
+    margin: 4px 0px;
+    opacity: 1;
+    transition: 0.3s;
+    border-radius: 4px;
+}
+
+.right-btn-box:hover {
+    background-color: #FF196E;
+    border-color: #FF196E;   
+}
+
+.fab {
+    float: left;
+    padding-top: 4px;
+}
+
+ .ctr-img {
+    float: right;
+    padding-left: 35px;
+    padding-right: 35px;
+    margin-top: 45px;
+}
+
+.pwd {
+    text-align: center;
+    font-weight: 500;
+    margin-top: 20px;
+}
+
+.sign-up-gap {
+    margin-top: -7px;
+}
+
+.pol-para {
+    font-size: 8px;
+    text-align: center;
+    margin-left: -480px;
+}
+
+/* index.html css starts here */
+
+.navbar, a, .logo {
+    box-sizing: border-box;
+    display: inline-block;
+    text-decoration: none;
+    color: #2A2C32;
+    display: d-flex;
+}
+ .navbar {
+     float: right;
+}
+
+.top-menu {
+    padding: 20px;
+}
+
+.logo {
+    width: 160px;
+    height: auto;
+}
+
+.hero-heading {
+    font-size: 56px;
+    line-height: 1;
+    font-weight: 800;
+    margin-left: 150px;
+    margin-top: 90px;
+    text-justify: auto;
+}
+
+.be-partner-btn {
+    width: 100%;
+    max-width: 205px;
+    height: 56px;
+    color: #fff;
+    background-color: #FF196E;
+    border-color: #FF196E;
+    border-radius: 8px;
+    box-shadow: #FF196E;
+    margin-left: 150px;
+    margin-top: 28px;
+}

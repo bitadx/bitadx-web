@@ -1,0 +1,116 @@
+
+@media only screen and (max-width: 1440px), only screen and (max-device-width: 1440px) {
+
+
+
+
+}
+
+@media only screen and (max-width: 1200px), only screen and (max-device-width: 1200px) {
+
+	.exnchange_box_item2, .exnchange_box_item{
+		padding: 61px 33px 50px 33px;
+	}
+
+
+}
+
+@media only screen and (max-width: 991px), only screen and (max-device-width: 991px) {
+
+	.btn_open{
+		display: block;
+	}
+	.site_navbtn{
+		display: block;
+	}
+	.site_nav_list{
+		display: none;
+	}	
+	.site_nav_list{
+		height: 100%;
+		width: 0;
+		z-index: 1;
+		top: 0;
+		left: -350px;
+		overflow-x: hidden;
+		transition: 0.3s;
+		animation: mymove 2s;
+	}
+	.site_nav_open{
+		display: block;
+		position: fixed;
+		max-width: 350px;
+		width: 100%;
+		left: 0;
+		top: 0;
+		bottom: 0;
+		height: 100vh;
+		overflow: hidden;
+		overflow-y: scroll;
+		z-index: 100;
+  		transition: 0.3s;
+        transition: .3s ease;
+	}
+	.btn_open {
+		position: absolute;
+		left: 10px;
+		top: 10px;
+		background: #fff;
+		visibility: visible;
+		z-index: 10;
+	}
+	.site_nav_open .btn_close{
+		visibility: visible;
+	}
+	.btn_close{
+		position: absolute;
+		right: 10px;
+		top: 10px;
+	}
+	.exnchange_box_item2, .exnchange_box_item {
+		padding: 61px 35px 50px 80px;
+	}
+	
+
+	
+	
+	
+	
+	
+	
+	
+	
+}
+
+@media only screen and (max-width: 768px), only screen and (max-device-width: 768px) {
+	
+	.exnchange_box{
+		overflow: hidden;
+	}
+	.exnchange_box_item2, .exnchange_box_item {
+		padding: 61px 25px 50px 25px;
+	}
+	.exnchange_box_item2_form{
+		max-width: 100%;
+		position: inherit;
+		margin-top: -56px;
+		padding: 49px 20px 34px 20px;
+	}
+	
+}
+
+
+@media only screen and (max-width: 480px), only screen and (max-device-width: 480px) {
+
+	
+	
+	
+}
+
+
+
+
+
+
+
+
